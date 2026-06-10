@@ -35,8 +35,8 @@ To ensure all bugs are scannable and easy to filter across teams, every bug repo
 [PROJECT_CODE] [VERSION] [PHASE] [FEATURE]: Concise bug description
 ```
 ### **Component Definitions:**
-* **`[PROJECT_CODE]`**: The 2-letter or short identifier code for the software project (e.g., `AG` for Agora, `TF` for Task Force, `SS` for Silent System).
-* **`[VERSION]`**: The specific release tag or build version string where the defect was observed (e.g., `v1.0`, `v1.1`, `v2.0`).
+* **`[PROJECT_CODE]`**: The 2-letter or short identifier code for the software project (e.g., `UN` for Unitis, `RP` for Rotten Potato).
+* **`[VERSION]`**: The specific release tag or build version string where the defect was observed.
 * **`[PHASE]`**: The current test pass strategy tier (e.g., `EarlyLook`, `FirstPass`, `SecondPass`, `Regression`).
 * **`[FEATURE]`**: The isolated feature module name wrapped in square brackets (e.g., `[Candidate Applications]`, `[Settings]`, `[Auth]`).
 * **`Concise bug description`**: A short, precise title summarizing the failure behavior.
@@ -45,7 +45,7 @@ To ensure all bugs are scannable and easy to filter across teams, every bug repo
 
 ## 📊 Risk Priority Calculation (RPN)
 
-We prioritize defects objectively utilizing a numeric **Risk Priority Number (RPN)** scoring mechanism outlined in **"CSci 136 - 05.1 Test Engineering.pdf"**:
+We prioritize defects objectively utilizing a numeric **Risk Priority Number (RPN)** scoring mechanism:
 
 $$RPN = \text{Severity} \times \text{Likelihood} \times \text{Repeatability}$$
 
