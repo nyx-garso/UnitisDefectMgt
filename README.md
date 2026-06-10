@@ -24,6 +24,7 @@ CodeNameDefectMgt/
        ├── BUG-001_broken_student_id_validation.md
        └── ...
 ```
+---
 
 ## 🏷️ Title Formatting Standard
 
@@ -40,6 +41,7 @@ To ensure all bugs are scannable and easy to filter across teams, every bug repo
 * **`[FEATURE]`**: The isolated feature module name wrapped in square brackets (e.g., `[Candidate Applications]`, `[Settings]`, `[Auth]`).
 * **`Concise bug description`**: A short, precise title summarizing the failure behavior.
 
+---
 
 ## 📊 Risk Priority Calculation (RPN)
 
