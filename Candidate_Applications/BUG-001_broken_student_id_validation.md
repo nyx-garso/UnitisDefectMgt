@@ -2,7 +2,7 @@
 
 **Bug Report ID:** BUG-001  
 **Feature Module:** Candidate Applications  
-**Tester:** [Your Name / Team Name]
+**Tester:** [Oreiro]
 
 ---
 
