@@ -38,9 +38,9 @@ The validation should process "23-1-01032" as a valid input. The upper boundary 
 ---
 
 ### [Additional information]
-See attached screenshot from `image_d58935.png`:
+See attached screenshot from `ca_bug.jpg`:
 
-![Student ID Validation Error](ca_bug.png)
+![Student ID Validation Error](ca_bug.jpg)
 
 ---
 
